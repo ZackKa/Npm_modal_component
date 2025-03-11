@@ -18,10 +18,12 @@ Exemple d'utilisation
 
 Voici un exemple d'utilisation du composant Modal dans un autre composant React :
 
+```jsx
 <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} closeOnOverlayClick={false}>
     <h2>Your title !</h2>
     <p>Your element.</p>
 </Modal>
+```
 
 Détails d'implémentation
 
@@ -32,6 +34,7 @@ Détails d'implémentation
 Validation des props
 La validation des props est effectuée à l'aide de PropTypes, ce qui permet de s'assurer que les bonnes valeurs sont passées au composant :
 
+```jsx
 Modal.propTypes = {
     isOpen: PropTypes.bool.isRequired, // La prop 'isOpen' doit être un booléen et est obligatoire
     onClose: PropTypes.func.isRequired, // La prop 'onClose' doit être une fonction et est obligatoire
@@ -39,7 +42,7 @@ Modal.propTypes = {
     className: PropTypes.string, // La prop 'className' permet de personnaliser les styles si nécessaire
     closeOnOverlayClick: PropTypes.bool, // Permet de contrôler la fermeture de la modal en cliquant sur l'overlay
 };
-
+```
 Structure et style
 
 - La modale est composée de deux éléments principaux :
