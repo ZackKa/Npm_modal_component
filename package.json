@@ -1,0 +1,15 @@
+{
+  "name": "@lelotgh/react_modal_component",
+  "version": "1.0.1",
+  "description": "A customizable modal component for React",
+  "main": "src/Modal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "modal", "component"],
+  "author": "lelotgh",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  }
+}
