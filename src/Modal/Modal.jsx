@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import '../style/modal.css'
+import React from 'react';
+import '../../lib/style/modal.css'
 
 function Modal({ isOpen, onClose, children, className, closeOnOverlayClick }) {
     // If the modal is not open, do not display anything
