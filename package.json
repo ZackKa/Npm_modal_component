@@ -1,6 +1,6 @@
 {
   "name": "@lelotgh/react_modal_component",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "A customizable modal component for React",
   "main": "lib/Modal/Modal.js",
   "scripts": {
